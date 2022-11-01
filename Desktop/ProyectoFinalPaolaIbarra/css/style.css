@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.item-relative{
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+.item-absolute{
+    position: absolute;
+    top: 40px;
+    left: 60px;
+}
+.item-fixed{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.body-inicio{
+    background-color:  #F5E8C7;     
+    background-image: url(../img/fondo-ingresar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+   }
+ 
+.header-titulo h1{
+    text-align:center;
+    color: rgb(160, 104, 160);
+    text-transform: uppercase;   
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+.container-img-home{
+    display: flex;
+    justify-content: space-between;    
+    background-size: 100px; 
+    flex-direction: row-reverse;
+}
+
+.container-img-logo{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 110px;
+    }
+
+.menu{
+    background-color: #FDEEDC;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    }
+
+
+.menu ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.texto-inicio1{
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;    
+}
+
+.texto-inicio2{
+    font-size: 150%;
+    font-weight: bolder;
+    font-style: italic; 
+    vertical-align: top;
+    }
+
+
+/*estilos cursos*/
+.body-cursos{
+    background-image: url(../img/fondo-tapis.jpg);
+    background-color:  #F5E8C7;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    padding: 0 30px;
+}
+
+/* estilos ingresar*/
+
+.body-ingresar{
+    background-color:  #F5E8C7;
+    background-image: url(../img/ana-tapiz-ejido.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0 30px;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+/* estilos tapices*/
+
+
+.body-tapices{
+    background-color: #F5E8C7;
+    padding: 0 30px;    
+}
+
+.finalpaginatapices{
+    text-align: center;
+}
+
+/* estilos imagenes tapices*/
+
+.main-textotapiz1 div img{
+    width: 50%;
+    height: 50%;
+}
+
+@media screen and (min-width:600px){
+header nav ul li {
+   font-weight: bold;
+   transform: scale(1.1);
+}
+}
+
+header nav ul li:hover{
+background-color: #E9DAC1;
+padding: 0.1rem;
+box-shadow: 1px 1px 3px black;       
+}
+
+.nombre-tapizirene{
+    text-align: end;
+    font-weight: bolder;  
+    font-style: italic;
+}
+
+.tapiz-irene-tx1{
+    text-align: end;
+    font-style: italic; 
+    size: 130%;
+}
+
+.tapiz-irenetx2{
+    text-align: end;
+    font-style: italic; 
+    }
+
+
+.tapiz-leonor{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.tapiz-leonor-tx{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.tapiz-leonor-tx1{
+    text-align: end;
+    font-style: italic; 
+    font-size: 130%;
+    }
+
+.tapiz-leonor-tx2{
+    text-align: end;
+    font-style: italic; 
+    font-weight: bolder;
+    font-size: 120%;
+}
+
+.btn{
+    background-color:rgb(161, 109, 210);
+}
+
+
+/*estilos portamateros*/
+
+.body-portamateros{
+    background-color:  #F5E8C7;
+    background-attachment: fixed;
+}
+
+.main-portamateros1 div img{
+        width: 50%;
+        height: 50%;
+    }
+
+.menu-portamateros{
+    display: block;
+    display: flex;
+    justify-content:end;    
+}
+
+.portamatero-sencillo-img1{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 70rem;
+    justify-content:end; 
+}
+
+.nombre-portamaterosencillo-tx{
+    text-align: center;
+    font-style: italic;
+}
+
+.portamaterosencillotx1{
+    text-align: left;
+    font-style: italic; 
+    font-size: 160%;
+}
+
+.portamaterosencillotx2{
+    text-align: left;
+    font-style: italic; 
+    font-size: 110%;
+}
+
+.nombre-portamaterosencillo-tx {
+    text-align: left;
+    font-style: italic;
+}    
+
+.portamatero-espiral-img2{
+    display: flex;
+}
+
+.nombre-portamateroespiral-tx{
+    text-align: end;
+    font-style: italic;
+    font-size:180%;
+}
+
+.portamateroespiraltx1{
+    text-align: end;
+    font-style: italic;
+    font-size:170%;
+}
+
+.portamateroespiraltx2{
+    text-align: end;
+    font-style: italic; 
+    font-size: 90%;
+}
+
+
+.body-portamateros{
+    background-color: #F5E8C7;
+    padding: 0 40px;
+}
+
+.main-portamateros img{
+    width: 50%;
+    height: 50%;
+}
+
+/*footer*/
+
+.finalpagina{
+    text-align: center;
+}
+
+
+/*media queries*/
+
+@media (max-width: 768px) and (min-width: 508px){
+    body{
+        background-color:blanchedalmond;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 769px){
+    body{
+        background-color:rgb(235, 217, 190)
+    }
+}
